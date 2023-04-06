@@ -955,3 +955,7 @@ button {
     border: 1px solid #b7b7b7;
     border-radius: 15px;
 }
+
+.display_none {
+    display: none;
+}
