@@ -959,3 +959,19 @@ button {
 .display_none {
     display: none;
 }
+
+
+.div_logo {
+    position: absolute;
+    z-index: 1;
+  }
+  
+.div_content {
+    position: absolute;
+    z-index: 2;
+}
+
+.margin_content_contract {
+    margin: 0 0 3px 30px;
+    color: white;
+}
