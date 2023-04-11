@@ -24,12 +24,12 @@
 <!-- Scrollbar Custom CSS -->
 <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
 <!-- Tweaks for older IEs-->
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 <!-- owl stylesheets --> 
 <link rel="stylesheet" href="css/owl.carousel.min.css">
 <link rel="stylesheet" href="css/owl.theme.default.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-<link rel="shortcut icon" type="image/png" href="images/logo-header.jpg"/>
+<link rel="shortcut icon" type="image/png" href="images/asfarm-none-font.png"/>
 </head>
 <body>
     <!-- start header -->
@@ -41,8 +41,8 @@
       <div class="container">
         <div class="row">
           <h1 class="welcome_text" style="padding-bottom: 30px;">Thiết bị xử lý nước AsF 180</h1>
-          <div class="col-md-6" style="margin-right: 30px;">
-            <div class="card-img-top" style="margin-bottom: 20px;"><img src="images/img-1.png" class="border_detail"></div>
+          <div class="col-md-7">
+            <div class="card-img-top border_detail" style="margin-bottom: 20px;"><img src="images/device-pts.png" style="max-width: 76%; margin-left: 10%;"></div>
             <table class="table table-bordered">
               <tr class="table-warning">
                 <th scope="row">
@@ -62,56 +62,98 @@
               </tr>
             </table>
           </div>
-          <div class="col-md-5 border_detail">
-            <h1 class="specifications" style="padding-bottom: 25px;"><b>Thông số kĩ thuật</b></h1>
-            <table class="table table-striped border_table">
-              <tbody>
-                <tr>
-                  <td>Đối tượng sử dụng</td>
-                  <th scope="row">Farm nước lợ</th>
-                </tr>
-                <tr>
-                  <td>Độ mặn tối thiếu</td>
-                  <th scope="row">.....</th>
-                </tr>
-                <tr>
-                  <td>Công suất</td>
-                  <th scope="row">180 m3/h</th>
-                </tr>
-                <tr>
-                  <td>Hiệu suất loại bỏ tối đa</td>
-                  <th scope="row">70%</th>
-                </tr>
-                <tr>
-                  <td>Điện năng tiêu thụ</td>
-                  <th scope="row">....Kwh/24h</th>
-                </tr>
-                <tr>
-                  <td>Trọng lượng máy</td>
-                  <th scope="row">.....</th>
-                </tr>
-                <tr>
-                  <td>Đường kính ống nước ra</td>
-                  <th scope="row">......</th>
-                </tr>
-                <tr>
-                  <td>Đường kính ống nước vào</td>
-                  <th scope="row">........</th>
-                </tr>
-                <tr>
-                  <td>Lượng khí cung cấp</td>
-                  <th scope="row">… L/h</th>
-                </tr>
-                <tr>
-                  <td>Mức nước tối thiểu</td>
-                  <th scope="row">…….m</th>
-                </tr>
-              </tbody>
-            </table>
+          <div class="col-md-5" style="height: 50%;">
+            <div>
+              <table class="table table-striped border_table">
+                <tbody>
+                  <tr class="table-warning">
+                    <th scope="row" colspan="2">
+                      <h1 class="specifications_text" style="text-align: center; padding: 0px">Thông số kĩ thuật</h1>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>Đối tượng sử dụng</td>
+                    <th scope="row">Farm nước lợ</th>
+                  </tr>
+                  <tr>
+                    <td>Độ mặn tối thiếu</td>
+                    <th scope="row">.....</th>
+                  </tr>
+                  <tr>
+                    <td>Công suất</td>
+                    <th scope="row">180 m3/h</th>
+                  </tr>
+                  <tr>
+                    <td>Hiệu suất loại bỏ tối đa</td>
+                    <th scope="row">70%</th>
+                  </tr>
+                  <tr>
+                    <td>Điện năng tiêu thụ</td>
+                    <th scope="row">....Kwh/24h</th>
+                  </tr>
+                  <tr>
+                    <td>Trọng lượng máy</td>
+                    <th scope="row">.....</th>
+                  </tr>
+                  <tr>
+                    <td>Đường kính ống nước ra</td>
+                    <th scope="row">......</th>
+                  </tr>
+                  <tr>
+                    <td>Đường kính ống nước vào</td>
+                    <th scope="row">........</th>
+                  </tr>
+                  <tr>
+                    <td>Lượng khí cung cấp</td>
+                    <th scope="row">… L/h</th>
+                  </tr>
+                  <tr>
+                    <td>Mức nước tối thiểu</td>
+                    <th scope="row">…….m</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-md-4" style="margin-top: 20px; color: #000; max-width: 100%;">
+              <div class="card text-center" style="margin-top: 10px;">
+                <div class="card-header">
+                  <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                      <a id="uses" class="nav-link active" style="cursor: pointer; font-size: 16px;">Công dụng</a>
+                    </li>
+                    <li class="nav-item">
+                      <a id="user_manual" class="nav-link disabled" style="cursor: pointer; font-size: 16px;">Hướng dẫn sử dụng</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+                  <!-- uses -->
+                  <p align="justify" id="uses-content" class="guarantee_content" style="margin: 0;">
+                    - Hạn chế thay nước. </br>
+                    - Loại bỏ các protein và chất thải hữu cơ trong nước nguyên nhân bùng phát khí độc, tảo độc, khuẩn gây bệnh. </br>
+                    - Giảm tích tụ nitơ, photpho. </br>
+                    - Cải thiện độ trong nước, kiểm soát tảo. </br>
+                    - Tăng hàm lượng oxi hòa tan trong nước. </br>
+                    - Ổn định chất lượng nước nuôi. </br>
+                  </p>
+  
+                  <!-- user_manual -->
+                  <p align="justify" id="user-manual-content" class="guarantee_content display_none" style="margin: 0;">
+                    - ASFa180 sử dụng cho cả ao sẵn sàng, ao nuôi, ao bạt, ao đất.. </br>
+                    - Chạy định kỳ ...ngày/lần. </br>
+                    - Ao tôm mởi thả, đang gây màu nước thì không nên chạy máy. </br>
+                    - Khi ao xuất hiện khí độc, tảo dày thì có thể tăng tần suất chạy máy. </br>
+                    - Vận hành.......... </br>
+                  </p>
+                </div>
+              </div>
+            </div> 
           </div>
+           
         </div>
+
         <div class="row">
-          <div class="col-md-7 border_detail" style="margin-top: 30px; margin-right: 10px;">
+          <div class="col-md-12 border_detail" style="margin-top: 30px; margin-right: 10px;">
             <h1 class="specifications"><b>Đặc trưng khác biệt của AsF180</b></h1>
             <p align="justify" class="lorem_text">
               - ASF180 hoạt động theo cơ chế tuyển nổi, bằng cách tạo ra hàng triệu bọt khí với kích thước nano, bọt khí cuốn theo chất ô nhiễm, theo đường ống thải ra ngoài, nước sau tách bẩn được tuàn hoàn lại ao. Chính vì cơ chế này mà ASF180 có thể hoạt động ổn định, bền bỉ mà không cần thay thế các phụ kiện màng lọc như các thiết bị lọc khác. Bên cạnh đó ASFa180 sử dụng máy nén khí có sẵn tại các farm để thực hiện tuyển nổi nên nước nuôi sau khi qua thiết bị đã được làm giàu thêm đáng kể lượng oxi hòa tan. (show kết quả test DO, hiệu quả loại bỏ ô nhiễm). </br>
@@ -120,40 +162,7 @@
               </br>
               - Song song với việc sử dụng chế phẩm sinh học xử lý, khi sử dụng ASF180 sẽ giảm ô nhiễm trong ao một cách nhanh chóng trong thời gian ngắn, dễ dàng kiểm soát được mức độ ô nhiễm, giảm stress cho tôm, đặc biệt với các ao nuôi mật độ quá dày, tình trạng nước ao xấu đi rất nhanh. </br>
             </p>
-          </div>
-          <div class="col-md-4" style="margin-top: 20px; color: #000">
-            <div class="card text-center" style="margin-top: 10px;">
-              <div class="card-header">
-                <ul class="nav nav-tabs card-header-tabs">
-                  <li class="nav-item">
-                    <a id="uses" class="nav-link active" style="cursor: pointer; font-size: 16px;">Công dụng</a>
-                  </li>
-                  <li class="nav-item">
-                    <a id="user_manual" class="nav-link disabled" style="cursor: pointer; font-size: 16px;">Hướng dẫn sử dụng</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="card-body">
-                <!-- uses -->
-                <p align="justify" id="uses-content" class="guarantee_content" style="margin: 0;">
-                  - Hạn chế thay nước. </br>
-                  - Loại bỏ các protein và chất thải hữu cơ trong nước nguyên nhân bùng phát khí độc, tảo độc, khuẩn gây bệnh. </br>
-                  - Giảm tích tụ nitơ, photpho. </br>
-                  - Cải thiện độ trong nước, kiểm soát tảo. </br>
-                  - Tăng hàm lượng oxi hòa tan trong nước. </br>
-                  - Ổn định chất lượng nước nuôi. </br>
-                </p>
-
-                <!-- user_manual -->
-                <p align="justify" id="user-manual-content" class="guarantee_content display_none" style="margin: 0;">
-                  - ASFa180 sử dụng cho cả ao sẵn sàng, ao nuôi, ao bạt, ao đất.. </br>
-                  - Chạy định kỳ ...ngày/lần. </br>
-                  - Ao tôm mởi thả, đang gây màu nước thì không nên chạy máy. </br>
-                  - Khi ao xuất hiện khí độc, tảo dày thì có thể tăng tần suất chạy máy. </br>
-                  - Vận hành.......... </br>
-                </p>
-              </div>
-            </div>
+            <div class="image_2"><img src="images/different.png" style="margin-left: 32%; margin-bottom: 20px;  max-width: 35%"></div>
           </div>
         </div>
       </div>

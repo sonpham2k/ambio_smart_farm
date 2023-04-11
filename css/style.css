@@ -951,6 +951,13 @@ button {
     color: #000000;
 }
 
+.specifications_text {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #000000;
+}
+
 .border_table {
     border: 1px solid #b7b7b7;
     border-radius: 15px;
