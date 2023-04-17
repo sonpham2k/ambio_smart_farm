@@ -1019,3 +1019,10 @@ button {
 .dropdown:hover .dropbtn {background-color: #cfcfcf;}
 
 .home_dropdown:hover {background-color: #cfcfcf}
+
+.with_device_pc {
+    display: block;
+}
+.with_device_mobile {
+    display: none;
+}

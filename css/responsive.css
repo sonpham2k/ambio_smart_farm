@@ -1,7 +1,7 @@
-/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+/*PC--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 
 
-/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+/*Tablet------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     
@@ -83,7 +83,7 @@
 }
 
 
-/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+/*Mobile------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 280px) and (max-width: 599px) {
     .cart-content-right {
@@ -126,11 +126,33 @@
     .mean-container .mean-nav ul li a.mean-expand {
         top: 0;
     }
-
-
-
-
-
+    .image_logo_mobile {
+        height: 90px;
+        max-width: 300%;
+    }
+    .layout_padding {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .with_device_pc {
+        display: none;
+    }
+    .with_device_mobile {
+        display: block;
+    }
+    .footer_mobile {
+        padding-bottom: 150px;
+        width: 110%;
+    }
+    .margin_child_footer {
+        margin-bottom: 8%;
+    }
+    .padding_text_product {
+        padding-left: 15px;
+    }
+    .margin_different_text {
+        margin-left: 10px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
